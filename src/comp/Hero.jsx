@@ -7,7 +7,7 @@ const Hero = ({ id }) => {
       id={id}
       className="hero min-h-dvh w-full relative flex items-center justify-center bg-black"
     >
-      <div className="absolute top-0 left-0 min-h-dvh w-full flex flex-col items-center justify-center z-10 gap-10 bg-[url('./images/bg.jpg')] bg-cover bg-center mask-image"></div>
+      <div className="absolute top-0 left-0 min-h-dvh w-full flex flex-col items-center justify-center z-10 gap-10 bg-[url('/images/bg.jpg')] bg-cover bg-center mask-image"></div>
       <div className="relative z-10 flex flex-col items-center justify-center h-full gap-10">
         <div className=" flex flex-col items-center justify-center h-full">
           <div className="flex flex-col items-center justify-center h-full gap">
