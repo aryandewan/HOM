@@ -28,7 +28,7 @@ const App = () => {
   }, []);
 
   return (
-    <main className="min-h-dvh w-full bg-black">
+    <main className="min-h-dvh w-full bg-black overflow-x-hidden">
       <Navbar isNavOpen={isNavOpen} handleNavOpen={handleNavOpen} />
       <>
         {!isXL && (
